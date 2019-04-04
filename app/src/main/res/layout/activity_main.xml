@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/tvImageTShirt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/t_shirt"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/ivTestPng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/tvImageTShirt"
+        app:layout_constraintTop_toTopOf="@id/tvImageTShirt"
+        app:layout_constraintStart_toStartOf="@id/tvImageTShirt"
+        app:layout_constraintEnd_toEndOf="@id/tvImageTShirt"
+        android:src="@drawable/fuck_test"
+        />
+
+    <ImageView
+        android:id="@+id/ivTestJpg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/ivTestPng"
+        app:layout_constraintTop_toTopOf="@id/ivTestPng"
+        app:layout_constraintStart_toEndOf="@id/ivTestPng"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/fuck_jpg"
+        />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="看到效果没, 左边蓝色手机图片就是PNG, 它的中间部分是透明的,所以可以看见位于它下面的T恤图案\n\n而右边蓝色手机图片是JPG, 它遮挡了T恤图案"
+        app:layout_constraintBottom_toBottomOf="@id/tvImageTShirt"
+        app:layout_constraintLeft_toLeftOf="@id/tvImageTShirt"
+        app:layout_constraintRight_toRightOf="@id/tvImageTShirt"
+        />
+
+</android.support.constraint.ConstraintLayout>

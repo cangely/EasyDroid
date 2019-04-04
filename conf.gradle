@@ -1,0 +1,63 @@
+ext {
+
+    versions = [
+            compileSdk:27,
+            buildTools:"27.0.0",
+            minSdk:21,
+            targetSdk:27,
+            supportSdk:'27.1.1',
+            retrofit:'2.4.0',
+            gson:'2.6.2',
+            rxandroid:'2.0.1',
+            rxjava:'2.0.1',
+            rxlifecycle:"2.0.1",
+            okhttp3: "3.4.2",
+            butterknife: "8.4.0",
+            guava:"18.0",
+            espresso:"2.2.2",
+            glide: "4.5.0"
+    ]
+    dependencies = [
+            "appcompatV7": "com.android.support:appcompat-v7:${versions["supportSdk"]}",
+            "supportV4": "com.android.support:support-v4:${versions["supportSdk"]}",
+            "design": "com.android.support:design:${versions["supportSdk"]}",
+            "annotations": "com.android.support:support-annotations:${versions["supportSdk"]}",
+            "recyclerview-v7": "com.android.support:recyclerview-v7:${versions["supportSdk"]}",
+            "cardview-v7": "com.android.support:cardview-v7:${versions["supportSdk"]}",
+            //retrofit全家桶
+            "retrofit": "com.squareup.retrofit2:retrofit:${versions["retrofit"]}",
+            "retrofit-converter-gson": "com.squareup.retrofit2:converter-gson:${versions["retrofit"]}",
+            "retrofit-adapter-rxjava": "com.squareup.retrofit2:adapter-rxjava2:${versions["retrofit"]}",
+            "okhttp3": "com.squareup.okhttp3:okhttp:${versions["okhttp3"]}",
+            "okhttp3-logging-interceptor": "com.squareup.okhttp3:logging-interceptor:${versions["okhttp3"]}",
+
+            //Gson
+            "gson": "com.google.code.gson:gson:${versions["gson"]}",
+
+            //rxjava系列
+            "rxandroid": "io.reactivex.rxjava2:rxandroid:${versions["rxandroid"]}",
+            "rxjava": "io.reactivex.rxjava2:rxjava:${versions["rxjava"]}",
+            //rxlifecycle,防rxjava导致的内存泄漏
+            "rxlifecycle": "com.trello.rxlifecycle2:rxlifecycle:${versions["rxlifecycle"]}",
+            "rxlifecycle-android": "com.trello.rxlifecycle2:rxlifecycle-android:${versions["rxlifecycle"]}",
+            "rxlifecycle-components": "com.trello.rxlifecycle2:rxlifecycle-components:${versions["rxlifecycle"]}",
+            "rxpermissions": "com.tbruyelle.rxpermissions2:rxpermissions:0.9.3@aar",
+            //butterknife
+            "butterknife": "com.jakewharton:butterknife:${versions["butterknife"]}",
+
+            "guava":"com.google.guava:guava:${versions["guava"]}",
+            "glide": "com.github.bumptech.glide:glide:${versions["glide"]}",
+            "glide-annotations": "com.github.bumptech.glide:annotations:${versions["glide"]}",
+
+            "espresso-idling-resource":"com.android.support.test.espresso:espresso-idling-resource:${versions["espresso"]}",
+            "espresso-core":"com.android.support.test.espresso:espresso-core:${versions["espresso"]}",
+            "espresso-contrib":"com.android.support.test.espresso:espresso-contrib:${versions["espresso"]}",
+            "espresso-intents":"com.android.support.test.espresso:espresso-intents:${versions["espresso"]}",
+
+            //test api / mockserver
+            "mockserver":"com.squareup.okhttp3:mockwebserver:${versions["okhttp3"]}",
+            "xrecyclerview": "com.jcodecraeer:xrecyclerview:1.3.2",
+            "xdroidxrecyclerview": "com.github.limedroid:ARecyclerView:v1.1.5",
+    ]
+
+}
