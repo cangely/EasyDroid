@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyProgressBar" parent="@android:style/Theme.Dialog">
+        <item name="android:indeterminateTint">@color/dark_gray</item>
+        <item name="android:indeterminateTintMode">src_atop</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

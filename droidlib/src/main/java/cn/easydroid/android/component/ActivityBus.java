@@ -1,4 +1,4 @@
-package cn.easydroid.component;
+package cn.easydroid.android.component;
 
 import android.app.Activity;
 import android.content.Intent;

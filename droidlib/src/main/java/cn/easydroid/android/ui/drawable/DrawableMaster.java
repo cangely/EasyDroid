@@ -1,4 +1,4 @@
-package cn.easydroid.ui.drawable;
+package cn.easydroid.android.ui.drawable;
 
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -28,10 +28,10 @@ public class DrawableMaster {
     /**
      *
      * @param shape The desired shape for this drawable:
-     *              {@link android.graphics.drawable.GradientDrawable#LINE},
-     *              {@link android.graphics.drawable.GradientDrawable#OVAL},
-     *              {@link android.graphics.drawable.GradientDrawable#RECTANGLE} or
-     *              {@link android.graphics.drawable.GradientDrawable#RING}
+     *              {@link GradientDrawable#LINE},
+     *              {@link GradientDrawable#OVAL},
+     *              {@link GradientDrawable#RECTANGLE} or
+     *              {@link GradientDrawable#RING}
      */
     public DrawableMaster withShape(int shape) {
         this.shape = shape;

@@ -1,4 +1,4 @@
-package cn.easydroid.ui.adapter;
+package cn.easydroid.android.ui.adapter;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -19,7 +19,7 @@ public abstract class EasyRecyclerAdapter<T, F extends RecyclerView.ViewHolder> 
 
     protected Context context;
     protected List<T> data = new ArrayList<T>();
-    protected OnRecItemCallback<T, F> recItemClick;
+    protected OnItemClick<T, F> recItemClick;
 
     public EasyRecyclerAdapter(Context context) {
         this.context = context;
@@ -307,11 +307,11 @@ public abstract class EasyRecyclerAdapter<T, F extends RecyclerView.ViewHolder> 
     }
 
 
-    public void setRecItemClick(OnRecItemCallback<T, F> recItemClick) {
+    public void setRecItemClick(OnItemClick<T, F> recItemClick) {
         this.recItemClick = recItemClick;
     }
 
-    public OnRecItemCallback<T, F> getRecItemClick() {
+    public OnItemClick<T, F> getRecItemClick() {
         return recItemClick;
     }
 

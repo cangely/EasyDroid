@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">droidLib</string>
+    <string name="tip_is_loading">正在加载</string>
 </resources>

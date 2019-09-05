@@ -1,4 +1,4 @@
-package cn.easydroid.ui.adapter.divider;
+package cn.easydroid.android.ui.adapter.divider;
 
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;

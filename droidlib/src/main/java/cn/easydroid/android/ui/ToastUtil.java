@@ -1,4 +1,4 @@
-package cn.easydroid.ui;
+package cn.easydroid.android.ui;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -10,7 +10,6 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
-
 
 
 /**
