@@ -1,4 +1,4 @@
-package cn.easydroid.data;
+package cn.easydroid.demo.data;
 
 import cn.easydroid.retrofit.RetrofitManager;
 import retrofit2.Retrofit;
